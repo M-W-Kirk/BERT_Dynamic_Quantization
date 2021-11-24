@@ -38,10 +38,15 @@ python ./run_glue.py \
     --output_dir $OUT_DIR
 ```
 
-## References
+### Results
+| Prec | F1 score | Model Size | 1 thread | 4 threads |
+| FP32 |  0.9019  |   438 MB   | 160 sec  | 85 sec    |
+| INT8 |  0.902   |   181 MB   |  90 sec  | 46 sec    |
 
-[1] J.Devlin, M. Chang, K. Lee and K. Toutanova, BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (2018).
+### References
 
-[2] HuggingFace Transformers.
+[x] J.Devlin, M. Chang, K. Lee and K. Toutanova, BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (2018).
 
-[3] O. Zafrir, G. Boudoukh, P. Izsak, and M. Wasserblat (2019). Q8BERT: Quantized 8bit BERT.
+[x] HuggingFace Transformers.
+
+[x] O. Zafrir, G. Boudoukh, P. Izsak, and M. Wasserblat (2019). Q8BERT: Quantized 8bit BERT.
