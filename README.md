@@ -5,7 +5,6 @@
 pip install sklearn
 pip install transformers
 pip install numpy
-yes y | pip uninstall torch tochvision
 yes y | pip install --pre torch -f https://download.pytorch.org/whl/nightly/cu101/torch_nightly.html
 ```
 
