@@ -40,7 +40,7 @@ python ./run_glue.py \
 
 ### Results
 Prec | F1 score | Model Size | 1 thread | 4 threads
----------------------------------------------------
+-----|----------|------------|----------|----------
 FP32 | 0.9019 | 438 MB   | 160 sec | 85 sec
 INT8 | 0.902 | 181 MB   |  90 sec | 46 sec
 
